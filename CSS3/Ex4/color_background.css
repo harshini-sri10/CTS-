@@ -1,0 +1,26 @@
+body {
+    background-image: url("background.jpg");
+    background-color: #eeeeee;
+    background-size: cover;
+}
+
+h1 {
+    color: #ff6600;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(0, 0, 255, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    background: linear-gradient(to right, navy, skyblue);
+    color: white;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+}

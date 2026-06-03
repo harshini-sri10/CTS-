@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+#mainHeader {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+.eventCard {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 15px;
+}
+
+h3,
+p {
+    color: gray;
+}

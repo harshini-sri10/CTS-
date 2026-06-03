@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+.event-list {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.event-list li {
+    padding: 5px;
+    margin: 5px;
+}
