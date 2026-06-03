@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Registration</title>
+
+    <style>
+        form {
+            width: 400px;
+            padding: 20px;
+            border: 2px solid gray;
+            margin: auto;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <script>
+        function registerEvent() {
+            document.getElementById("result").value =
+                "Registration Successful";
+        }
+    </script>
+</head>
+
+<body>
+
+    <form>
+
+        <h2>Event Registration Form</h2>
+
+        <input type="text" placeholder="Enter Name" required autofocus>
+
+        <input type="email" placeholder="Enter Email" required>
+
+        <input type="date" required>
+
+        <select required>
+            <option>Music</option>
+            <option>Sports</option>
+            <option>Dance</option>
+        </select>
+
+        <textarea placeholder="Enter Message"></textarea>
+
+        <input type="button" value="Submit" onclick="registerEvent()">
+
+        <output id="result"></output>
+
+    </form>
+
+</body>
+
+</html>

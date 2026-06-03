@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video Invite</title>
+
+    <script>
+
+        function readyVideo() {
+            document.getElementById("msg").innerHTML =
+                "Video Ready to Play";
+        }
+
+        window.onbeforeunload = function () {
+            return "Form is not completed.";
+        };
+
+    </script>
+</head>
+
+<body>
+
+    <video width="500" controls oncanplay="readyVideo()">
+
+        <source src="promo.mp4" type="video/mp4">
+
+    </video>
+
+    <p id="msg"></p>
+
+</body>
+
+</html>
